@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #EADBC8;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.navbar {
+    background-color: #0B3D2E;
+}
+
+#navbarSupportedContent a {
+    color: #FACC15;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.banner-section-bg-container {
+    background-image: url('https://image2url.com/images/1766468377581-116e8805-eef2-4dc0-ae27-32e5f8c0a4ab.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+#fade {
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+.banner-heading {
+    color: #FFF8E7;
+    font-size: 32px;
+    font-family: Playfair display;
+    font-weight: 700;
+}
+
+.banner-caption {
+    color: #F4C430;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Libre Baskerville";
+}
+
+
+.wcu-section-heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #7A1E2C;
+}
+
+.wcu-section-description {
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+    color: #6B4F3F;
+}
+
+.wcu-card {
+    background-color: #FFFDF9;
+    text-align: center;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    height: 90px;
+    width: 87px;
+    border-radius: 10px;
+}
+
+.wcu-card-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #2F6F4E;
+}
+
+.wcu-card-description {
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    color: #5C4A3D;
+}
+
+.offers {
+    color: #C1121F;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.icon-color {
+    color: #2F6F4E;
+}
+
+.feature-card {
+    border: 1px solid #C1121F;
+}
+
+.card1 {
+    background-image: url('https://images.unsplash.com/photo-1543752330-bf0c7055f5bc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 50vh;
+}
+
+.fc-detail {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.fc-title {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFF8E7;
+}
+
+.fc-para {
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    color: #5a7184;
+}
+
+.card2 {
+    background-image: url('https://plus.unsplash.com/premium_photo-1669137962203-6caed0be27ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hyaXN0bWFzJTIwbXVzaWN8ZW58MHwxfDB8fHww');
+    background-size: cover;
+    height: 50vh;
+}
+
+.card3 {
+    background-image: url('https://images.unsplash.com/photo-1575383359917-e585c563a8e3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hyaXN0bWFzJTIwZ2lmdHN8ZW58MHwxfDB8fHww');
+    background-size: cover;
+    height: 50vh;
+}
+
+.card4 {
+    background-image: url('https://images.unsplash.com/photo-1641285359013-b4574eaf73cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hyaXN0bWFzJTIwc3dlZXRzfGVufDB8MXwwfHx8MA%3D%3D');
+    background-size: cover;
+    height: 50vh;
+}
+
+.card5 {
+    background-image: url('https://plus.unsplash.com/premium_photo-1732819555925-065250270708?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hyaXN0bWFzJTIwZnVuJTIwZ2FtZXN8ZW58MHwxfDB8fHww');
+    background-size: cover;
+    height: 50vh;
+}
+
+.card6 {
+    background-image: url('https://images.unsplash.com/photo-1766554126068-15f9f9b8b539?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hyaXN0bWFzJTIwZ2l2aW5nfGVufDB8MXwwfHx8MA%3D%3D');
+    background-size: cover;
+    height: 50vh;
+}
+
+.carousel,
+.img-radius {
+    border-radius: 8px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 8px;
+}
+
+.festive-btn {
+    background-image: linear-gradient(#C1121F, #7A1E2C);
+    color: #FFFDF9;
+}
+
+.kit-card {
+    background-color: #FFFDF9;
+    border-radius: 10px;
+}
+
+.list-group {
+    background-color: #FFFDF9;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-link {
+    border: 0;
+    background-color: transparent;
+    color: #B45309;
+}
+
+
+.bg-container {
+    border-radius: 10px;
+}
+
+.buy-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #1F2933;
+}
+
+.family-image {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.buy-sub {
+    color: #B91C1C;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Roboto;
+}
+
+.buy-list {
+    color: #6B7280;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.contact-section {
+    background-color: #FBF3E9;
+    /* matches your site background */
+}
+
+.contact-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0B3D2E;
+}
+
+.contact-icon {
+    font-size: 36px;
+    color: #B91C1C;
+    /* festive red */
+    margin-bottom: 12px;
+}
+
+.contact-title {
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2933;
+    margin-bottom: 6px;
+}
+
+.contact-sub {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #6B7280;
+    margin-bottom: 6px;
+}
+
+.contact-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1F2933;
+}
+
+/* Social icons */
+.social-icons i {
+    font-size: 18px;
+    color: #0B3D2E;
+    margin: 0 6px;
+}
+
+
+.footer-section {
+    background-color: #0B3D2E;
+    color: #FACC15;
+    padding: 40px 0 20px;
+}
+
+.footer-brand {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FACC15;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #FACC15;
+}
+
+.footer-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #FACC15;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-divider {
+    border-color: rgba(250, 204, 21, 0.3);
+}
+
+.footer-copy {
+    font-size: 13px;
+    color: #FACC15;
+    margin-top: 10px;
+}
